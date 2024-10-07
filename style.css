@@ -1,0 +1,48 @@
+.link_li a
+{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.link_li a i
+{
+    margin-right: 4px;
+}
+.main
+{
+    margin: 10px;
+}
+.inputbox
+{
+    background: #efefef;
+    border-radius: 4px;
+    padding: 0 5px;
+}
+/* boynow page styling */
+.cont
+{
+    height: 100vh;
+    width: 100%;
+    /* background: url("images/img1.jpg");
+    background-position: center;
+    background-size: cover; */
+}
+.cont::before
+{
+    content: '';
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: #00000087;
+    z-index: 1;
+}
+.items
+{
+    z-index: 100;
+    position: absolute;
+    height: 100vh;
+    width: 87%;
+    display: grid;
+    place-items: center;
+    margin: 0 16px;
+}
